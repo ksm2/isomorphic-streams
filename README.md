@@ -1,5 +1,10 @@
 # isomorphic-streams
 
+[![Node.js CI](https://github.com/ksm2/isomorphic-streams/actions/workflows/node.js.yml/badge.svg)](https://github.com/ksm2/isomorphic-streams/actions/workflows/node.js.yml)
+[![NPM version](https://img.shields.io/npm/v/isomorphic-streams)](https://www.npmjs.com/package/isomorphic-streams)
+[![license](https://img.shields.io/github/license/ksm2/isomorphic-streams)](https://opensource.org/licenses/MIT)
+[![TypeScript types](https://img.shields.io/npm/types/isomorphic-streams)](https://github.com/ksm2/isomorphic-streams/blob/main/index.d.ts)
+
 > Isomorphic [WHATWG Streams API] package for browser and Node.js
 
 This package has
