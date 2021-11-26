@@ -1,0 +1,36 @@
+{
+  "name": "isomorphic-streams",
+  "version": "1.0.0-dev",
+  "description": "Isomorphic WHATWG Streams API package for browser and Node.js",
+  "main": "index.node.js",
+  "browser": "index.browser.js",
+  "types": "index.d.ts",
+  "exports": {
+    "node": "index.node.js",
+    "default": "index.browser.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Konstantin Möllers",
+    "email": "ksm.moellers@gmail.com"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">= 16.5.0"
+  },
+  "scripts": {
+    "prettier": "prettier --check *.js *.ts README.md CODE_OF_CONDUCT.md",
+    "prettier:fix": "prettier --write *.js *.ts README.md CODE_OF_CONDUCT.md"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  },
+  "files": [
+    "index.d.ts",
+    "index.browser.js",
+    "index.node.js",
+    "LICENSE",
+    "README.md"
+  ]
+}
