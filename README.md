@@ -51,6 +51,8 @@ for await (const value of stream) {
 }
 ```
 
+[More examples][examples]
+
 ## Contributing
 
 This project is open to feedback and contributions, please open an issue.
@@ -64,3 +66,4 @@ MIT © 2021 Konstantin Möllers, see [LICENSE].
 [whatwg streams api]: https://streams.spec.whatwg.org/
 [license]: https://github.com/ksm2/isomorphic-streams/blob/main/LICENSE
 [contributor covenant]: https://github.com/ksm2/isomorphic-streams/blob/main/CODE_OF_CONDUCT.md
+[examples]: https://github.com/ksm2/isomorphic-streams/tree/main/examples
