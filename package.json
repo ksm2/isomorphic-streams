@@ -2,12 +2,12 @@
   "name": "isomorphic-streams",
   "version": "1.0.1",
   "description": "Isomorphic WHATWG Streams API package for browser and Node.js",
-  "main": "index.node.js",
-  "browser": "index.browser.js",
-  "types": "index.d.ts",
+  "main": "./index.node.js",
+  "browser": "./index.browser.js",
+  "types": "./index.d.ts",
   "exports": {
-    "node": "index.node.js",
-    "default": "index.browser.js"
+    "node": "./index.node.js",
+    "default": "./index.browser.js"
   },
   "license": "MIT",
   "repository": {
