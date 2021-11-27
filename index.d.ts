@@ -137,6 +137,13 @@ export interface UnderlyingSink<W> {
   ): void | PromiseLike<void>;
 }
 
+export interface StreamPipeOptions {
+  preventAbort?: boolean;
+  preventCancel?: boolean;
+  preventClose?: boolean;
+  signal?: AbortSignal;
+}
+
 export interface TransformStreamTransformer<T, R> {
   transform(chunk: R, controller: TransformerController<T, R>): any;
 }
