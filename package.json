@@ -6,6 +6,7 @@
   "browser": "./index.browser.js",
   "types": "./index.d.ts",
   "exports": {
+    "types": "./index.d.ts",
     "node": "./index.node.js",
     "default": "./index.browser.js"
   },
